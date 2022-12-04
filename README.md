@@ -16,7 +16,7 @@ purposes.
 
 What things you need to install the software and how to install them
 
-- JDK 17 or later
+- JDK 19 or later
 
 ### Installing
 

@@ -1,12 +1,12 @@
-import org.gradle.api.JavaVersion.VERSION_17
+import org.gradle.api.JavaVersion.VERSION_19
 
 plugins {
     kotlin("jvm") version "1.7.21"
 }
 
 configure<JavaPluginExtension> {
-    sourceCompatibility = VERSION_17
-    targetCompatibility = VERSION_17
+    sourceCompatibility = VERSION_19
+    targetCompatibility = VERSION_19
 }
 
 repositories {
@@ -32,6 +32,6 @@ tasks {
     }
 
     compileKotlin {
-        kotlinOptions.jvmTarget = "17"
+        kotlinOptions.jvmTarget = "18"
     }
 }

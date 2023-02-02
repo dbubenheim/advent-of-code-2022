@@ -1,7 +1,7 @@
 import org.gradle.api.JavaVersion.VERSION_19
 
 plugins {
-    kotlin("jvm") version "1.8.0"
+    kotlin("jvm") version "1.8.10"
 }
 
 configure<JavaPluginExtension> {

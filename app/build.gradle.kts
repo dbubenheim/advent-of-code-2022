@@ -1,12 +1,5 @@
-import org.gradle.api.JavaVersion.VERSION_19
-
 plugins {
     kotlin("jvm") version "1.8.10"
-}
-
-configure<JavaPluginExtension> {
-    sourceCompatibility = VERSION_19
-    targetCompatibility = VERSION_19
 }
 
 repositories {
@@ -23,15 +16,17 @@ dependencies {
     testImplementation("com.willowtreeapps.assertk:assertk:0.25")
 }
 
+kotlin {
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of("19"))
+    }
+}
+
 tasks {
     test {
         useJUnitPlatform()
         testLogging {
             events("passed", "skipped", "failed")
         }
-    }
-
-    compileKotlin {
-        kotlinOptions.jvmTarget = "19"
     }
 }

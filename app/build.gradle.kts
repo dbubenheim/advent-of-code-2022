@@ -32,6 +32,6 @@ tasks {
     }
 
     compileKotlin {
-        kotlinOptions.jvmTarget = "18"
+        kotlinOptions.jvmTarget = "19"
     }
 }

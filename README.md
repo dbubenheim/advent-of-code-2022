@@ -5,7 +5,6 @@
 ![GitHub](https://img.shields.io/github/license/dbubenheim/advent-of-code-2022?label=license&style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dbubenheim/advent-of-code-2022?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/dbubenheim/advent-of-code-2022?style=for-the-badge)
-![GitHub search hit counter](https://img.shields.io/github/search/dbubenheim/advent-of-code-2022/goto?style=for-the-badge)
 
 ## Getting Started
 

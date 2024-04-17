@@ -14,7 +14,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    testImplementation("com.willowtreeapps.assertk:assertk:0.26.1")
+    testImplementation("com.willowtreeapps.assertk:assertk:0.28.1")
 }
 
 kotlin {

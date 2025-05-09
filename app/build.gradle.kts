@@ -9,7 +9,7 @@ repositories {
 dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25")
 
     testImplementation(kotlin("test"))
     testImplementation(platform("org.junit:junit-bom:5.10.0"))

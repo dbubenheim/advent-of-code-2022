@@ -12,7 +12,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25")
 
     testImplementation(kotlin("test"))
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation(platform("org.junit:junit-bom:5.13.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("com.willowtreeapps.assertk:assertk:0.28.1")
 }
